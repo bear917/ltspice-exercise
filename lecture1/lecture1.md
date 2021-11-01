@@ -19,8 +19,6 @@ LTspice 提供的圖形化界面在一開始接觸 spice 電路模擬的時候�
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/color-netlist.png)
 ## 更改顏色參考
 + 電路圖純白背景（較適合去背處理，可以複製到別的文件使用）
-![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/color-preferences.png)
-
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-schematic-background.png)
 + 波形圖純白背景（適合列印使用，不會因為黑底讓波形列印出來難以識別）
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-waveform-background.png)
