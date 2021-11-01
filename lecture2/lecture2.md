@@ -1,5 +1,5 @@
 # SPICE 語言
-[SPICE; Simulation Program with Integrated Circuit Emphasis](https://en.wikipedia.org/wiki/SPICE)是用來描述電路並可用作模擬的一種程式語言。 LTspcie是一種利用圖形界面編輯的 SPICE 的應用程式，在製作 schematic 電路藍圖時，同時也會產生相對應的 netlist 檔案，檔案內容就是用 SPICE 語法表示電路連接關係與模擬所需設定。同學在使用這類應用程式時，仍須對於 SPICE 語法具有一定程度認識。
+[SPICE; Simulation Program with Integrated Circuit Emphasis](https://en.wikipedia.org/wiki/SPICE)是用來描述電路並可用作模擬的一種程式語言。 LTspcie是一種利用圖形界面編輯的 SPICE 的應用程式，在製作 schematic 電路藍圖時，同時也會產生相對應的 netlist 檔案，檔案內容就是用 SPICE 語法表示電路連接關係與模擬所需設定。同學在使用這類應用程式時，仍須對於 [SPICE 語法](https://web.stanford.edu/class/ee133/handouts/general/spice_ref.pdf) 具有一定程度認識。
 
 schematic 與 netlist 實際範例
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/schematic-and-netlist.png)
