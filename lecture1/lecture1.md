@@ -27,6 +27,8 @@ LTspice 提供的圖形化界面在一開始接觸 spice 電路模擬的時候�
 > ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-v2.png)
 + 變更 wire 粗細（截圖時，才不會因為太細看不清楚）
 + 預設 wire 粗細為 1
-> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-thin.png)
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-1.png)
++ 更動 wire 粗細為 2
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-2.png)
 + 更動 wire 粗細為 4
-> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-thick.png)
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-4.png)
