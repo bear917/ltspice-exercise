@@ -31,12 +31,17 @@ schematic 與 netlist 實際範例
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/connect-together.png)
 
 # LTspice 使用的數字表示法
+[參考資料](https://en.wikipedia.org/wiki/LTspice#Number_conventions)
 常用表示法
 - AeB; A x 10<sup>B</sup>
-- f; 1e-15
-- p; 1e-12
-- n; 1e-9
+- G; 1e9
+- *MEG*; 1e6
+- K; 1e3
+- m; 1e-3
 - u; 1e-6
+- n; 1e-9
+- p; 1e-12
+- f; 1e-15
 
 ## .op 實際範例
 請同學參考 ckt-2-1.asc、ckt-2-2.asc 檔案。並請嘗試從頭到尾重現一模一樣的電路並模擬。
