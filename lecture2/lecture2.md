@@ -10,8 +10,11 @@ schematic 與 netlist 實際範例
 請注意：欲使用 .op label 時，必須進行至少一次的 simulate，讓電腦存有第一次的計算結果才能標示。
 >![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/sim-op.png)
 
-以下範例為，電路尚未模擬時，未存在計算結果，.op label 無法選擇的狀態
+以下範例為，電路尚未模擬時，未存在計算結果，.op data label 無法選擇的狀態
 >![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/no-op-data.png)
+
+執行一次模擬後，呼叫 .op data label 的範例
+>![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/add-op-label.gif)
 
 # 註解
 註解在模擬電路的過程中，不參與計算。純粹做為標示使用，一般來說，為了增加電路圖的可讀性，會進行適當的標示。
@@ -26,3 +29,6 @@ schematic 與 netlist 實際範例
 下面兩張電路圖雖然圖面上看起來不一樣，但是電路組態是一模一樣的（兩張電路圖的 netlist 完全相同）
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/connect-seperately.png)
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/connect-together.png)
+
+## .op 實際範例
+請同學參考 ckt-2-1.asc、ckt-2-2.asc 檔案。從頭到尾重新製作並模擬一整個電路結果。
