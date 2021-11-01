@@ -8,6 +8,7 @@ schematic 與 netlist 實際範例
 我們經常關注電路中各元件的電壓與電流大小，這個時候可以使用 .op 指令配合 .op label 去觀察有興趣的節點，不管是電壓或是電流，皆可以標示出來。
 
 請注意：欲使用 .op label 時，必須進行至少一次的 simulate，讓電腦存有第一次的計算結果才能標示。
+>![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/sim-op.png)
 
 以下範例為，電路尚未模擬時，未存在計算結果，.op label 無法選擇的狀態
 >![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/no-op-data.png)
