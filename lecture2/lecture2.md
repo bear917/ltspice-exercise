@@ -30,5 +30,16 @@ schematic 與 netlist 實際範例
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/connect-seperately.png)
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/connect-together.png)
 
+# LTspice 使用的數字表示法
+常用表示法
+- aeb; $a\times10<sup>b</sup>$
+- f; 1e-15
+- p; 1e-12
+- n; 1e-9
+- u; 1e-6
+
 ## .op 實際範例
 請同學參考 ckt-2-1.asc、ckt-2-2.asc 檔案。並請嘗試從頭到尾重現一模一樣的電路並模擬。
+
+參考結果
+>![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result.png)
