@@ -32,7 +32,7 @@ schematic 與 netlist 實際範例
 
 # LTspice 使用的數字表示法
 常用表示法
-- aeb; $3 \times 10$
+- AeB; A x 10<sup>B</sup>
 - f; 1e-15
 - p; 1e-12
 - n; 1e-9
