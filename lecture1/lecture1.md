@@ -19,14 +19,14 @@ LTspice 提供的圖形化界面在一開始接觸 spice 電路模擬的時候�
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/color-netlist.png)
 ## 更改顏色參考
 + 電路圖純白背景（較適合去背處理，可以複製到別的文件使用）
-![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-schematic-background.png)
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-schematic-background.png)
 + 波形圖純白背景（適合列印使用，不會因為黑底讓波形列印出來難以識別）
-![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-waveform-background.png)
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-waveform-background.png)
 + 改動波形圖第一條與第二條波形色彩（螢光綠不適合使用在純白背景）
-![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-v1.png)
-![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-v2.png)
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-v1.png)
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-v2.png)
 + 變更 wire 粗細（截圖時，才不會因為太細看不清楚）
-預設 wire 粗細為 1
-![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-thin.png)
++ 預設 wire 粗細為 1
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-thin.png)
 + 更動 wire 粗細為 4
-![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-thick.png)
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/example-wire-thick.png)
