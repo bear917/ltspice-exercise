@@ -31,4 +31,4 @@ schematic 與 netlist 實際範例
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/connect-together.png)
 
 ## .op 實際範例
-請同學參考 ckt-2-1.asc、ckt-2-2.asc 檔案。從頭到尾重新製作並模擬一整個電路結果。
+請同學參考 ckt-2-1.asc、ckt-2-2.asc 檔案。並請嘗試從頭到尾重現一模一樣的電路並模擬。
