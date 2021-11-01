@@ -21,8 +21,8 @@ schematic 與 netlist 實際範例
 系統預設的節點名稱為 nxxx，例 n001、n002、…，自動編號的節點名稱並不好理解其意義，同時也不方便在圖面上尋找其位置。所以會使用「Label net」 來自訂節點名稱。
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/Label-Net.png)
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/edit-label.png)
-電路圖上標示相同節點名稱的，都是同一節點，即使圖上沒有使用 wire 連接，常見於電源連接的表示。
 
+電路圖上標示相同節點名稱的，都是同一節點，即使圖上沒有使用 wire 連接，常見於電源連接的表示。
 下面兩張電路圖雖然圖面上看起來不一樣，但是電路組態是一模一樣的（兩張電路圖的 netlist 完全相同）
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/connect-seperately.png)
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/connect-together.png)
