@@ -14,10 +14,10 @@
 在輸出結果圖上指定測量 R1 對地電壓（即 R1 的跨壓），因為是理想電阻所以滿足歐姆定律，跨壓與通過電流成正比。
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture4/dot-dc-meaning(one-source).png)
 
-# 如果有多組直流訊號源要改變，LTspice 最多可提供三組 source（未使用可留空白）多組 source 執行先後順序，可以用 c 語言的 for 迴圈稍微類比。
+# 如果有多組直流訊號源要改變，LTspice 最多可提供三組 source（未使用可留空白）多組 source 執行先後順序，可以用程式語言的 for 迴圈稍微說明。
 
 ## 執行順序概念說明（並非真實程式）
-``
+```C
 for (3rd source) {
 	// Do task3
 	for (2nd source) {
@@ -27,4 +27,4 @@ for (3rd source) {
 		}
 	}
 }
-``
+```
