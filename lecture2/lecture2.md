@@ -4,6 +4,9 @@
 schematic 與 netlist 實際範例
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/schematic-and-netlist.png)
 
+model 內容範例（以）
+
+
 # .op 指令
 我們經常關注電路中各元件的電壓與電流大小，這個時候可以使用 .op 指令配合 .op label 去觀察有興趣的節點，不管是電壓或是電流，皆可以標示出來。
 
