@@ -4,6 +4,7 @@
 ## 實際案例1：理想電阻其跨壓與通過電流關係
 + **DC sweep 的source，在原始參數必須為一個任意數值**
 + **忘記設定原始參數，模擬時會報錯**
+
 範例（忘記設定 I1 電流源的直流值，保留預設符號 I）
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture4/missing-value.png)
 
