@@ -46,7 +46,7 @@ model 內容範例（以 NE555 為例）
 - f; 1e-15
 
 ## .op 實際範例
-請同學參考 ckt-2-1.asc、ckt-2-2.asc 檔案。並請嘗試從頭到尾重現一模一樣的電路並模擬。
+請同學參考 [ckt-2-1.asc]()、[ckt-2-2.asc]() 檔案。並請嘗試從頭到尾重現一模一樣的電路並模擬。
 
 參考結果
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result.png)
