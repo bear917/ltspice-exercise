@@ -7,6 +7,14 @@
 ## model 內容範例（以 NE555 為例）
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/inside-model-file.png)
 
+# .asc 檔案預設儲存位置
+很多時候同學會找不到已經儲存的檔案放在哪裡，原因就是因為當你按下 save 時，檔案會直接存在預設資料夾中，LTspice 不會主動問你要存放的位置。因此有兩個方法可以解決這個問題。
+## 解法一：另存新檔（推薦）
+在 File 選擇 save as 另存新檔，可以自己選擇要存放的位置。存過一次之後，LTspice 會記住目前這個檔案存放的地方，而不會使用預設位置。直到下一次開新檔案後，才會再使用預設位置。
+![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/save-as.png)
+## 解法二：改變預設位置（不推薦，僅供進階使用者）
+![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/default-directory.png)
+
 # .op 指令
 我們經常關注電路中各元件的電壓與電流大小，這個時候可以使用 .op 指令配合 .op label 去觀察有興趣的節點，不管是電壓或是電流，皆可以標示出來。
 
