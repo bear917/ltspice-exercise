@@ -1,10 +1,10 @@
 # SPICE 語言
 [SPICE; Simulation Program with Integrated Circuit Emphasis](https://en.wikipedia.org/wiki/SPICE)是用來描述電路並可用作模擬的一種程式語言。 LTspcie是一種利用圖形界面編輯的 SPICE 的應用程式，在製作 schematic 電路藍圖時，同時也會產生相對應的 netlist 檔案，檔案內容就是用 SPICE 語法表示電路連接關係與模擬所需設定。同學在使用這類應用程式時，仍須對於 SPICE 語法具有一定程度認識。
 
-schematic 與 netlist 實際範例
+## schematic 與 netlist 實際範例
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/schematic-and-netlist.png)
 
-model 內容範例（以 NE555 為例）
+## model 內容範例（以 NE555 為例）
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/inside-model-file.png)
 
 # .op 指令
@@ -13,10 +13,10 @@ model 內容範例（以 NE555 為例）
 請注意：欲使用 .op label 時，必須進行至少一次的 simulate，讓電腦存有第一次的計算結果才能標示。
 >![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/sim-op.png)
 
-以下範例為，電路尚未模擬時，未存在計算結果，.op data label 無法選擇的狀態
+## 以下範例為，電路尚未模擬時，未存在計算結果，.op data label 無法選擇的狀態
 >![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/no-op-data.png)
 
-執行一次模擬後，呼叫 .op data label 的範例
+## 執行一次模擬後，呼叫 .op data label 的範例
 >![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/add-op-label.gif)
 
 # 註解
@@ -48,5 +48,5 @@ model 內容範例（以 NE555 為例）
 ## .op 實際範例
 請同學參考 [ckt-2-1.asc](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/ckt-2-1.zip)、[ckt-2-2.asc](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/ckt-2-2.zip) 檔案。並請嘗試從頭到尾重現一模一樣的電路並模擬。
 
-參考結果
+## 參考結果
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result.png)
