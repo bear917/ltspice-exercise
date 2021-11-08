@@ -6,3 +6,4 @@ Exercise for circuit simulation beginner.
 + [lecture0](https://github.com/bear917/ltspice-exercise/blob/main/lecture0/lecture0.md)
 + [lecture1](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/lecture1.md)
 + [lecture2](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/lecture2.md)
++ [lecture3](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/lecture3.md)
