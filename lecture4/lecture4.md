@@ -5,7 +5,7 @@
 + **DC sweep 的source，在原始參數必須為一個任意數值**
 + **忘記設定原始參數，模擬時會報錯**
 
-範例（忘記設定 I1 電流源的直流值，保留預設符號 I）
+### 範例（忘記設定 I1 電流源的直流值，保留預設符號 I）
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture4/missing-value.png)
 
 假設待測電阻為 1k Ohm，欲觀察其電壓對電流的關係，可採用下面指令（模擬運算必須給定起點、終點條件，電腦並不存在無限延伸的概念。此外，計算次數也須給定，也就是設定條件增幅 Increment）
