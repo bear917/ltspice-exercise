@@ -41,8 +41,8 @@ for (3rd source) {
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture4/set-step-param.png)
 
 1. 如果使用繪圖方式觀看結果，記得標示不同條件對應的波形
-** view -> step legend 功能僅出現在觀察單一節點。波形圖如果有二個以上節點，該功能無法啟用。**
+**view -> step legend 功能僅出現在觀察單一節點。波形圖如果有二個以上節點，該功能無法啟用。**
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture4/step-legend.gif)
 
-結果圖
+#### 結果圖
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture4/result.png)
