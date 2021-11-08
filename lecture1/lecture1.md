@@ -15,7 +15,7 @@ LTspice 提供的圖形化界面在一開始接觸 spice 電路模擬的時候�
 ### 常用快速鍵1：滾輪可以縮放畫面
 ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/zoom.gif)
 ### 常用快速鍵2：左鍵拖曳可以平移整張電路圖，按空白可以縮放到最佳大小
-![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/zoom-fi.gif.gif)
+![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture1/zoom-fi.gif)
 
 ## 更改顯示色彩
 一般來說，在螢幕顯示的圖形會採用深色背景，但是如果需要列印，為了節約墨水或碳粉，會盡量改為全白背景。下面的設置，是可針對軟體中各種顯示情境，進行色彩調整。（如果調壞掉，可以使用 Default 改回出廠設置）
