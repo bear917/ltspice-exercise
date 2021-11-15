@@ -42,7 +42,7 @@
 ### 範例（喇叭電路） 
 以下示範喇叭的負載效應，如果不設定 AC source 的輸出阻抗時，將無法將喇叭的負載效應反應在波形上。（即喇叭分壓遠小於函數產生器設定值的現象）
 設定過程
-> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture3/internal-impedance.gif)
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture3/internal-impedance-4.gif)
 模擬結果
 > ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture3/speaker-voltage.png)
 
