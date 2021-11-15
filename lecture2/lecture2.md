@@ -62,10 +62,8 @@
 ## .op 實際範例
 請同學參考 [ckt-2-1](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/ckt-2-1.zip)、[ckt-2-2](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/ckt-2-2.zip) 檔案。並請嘗試從頭到尾重現一模一樣的電路並模擬。
 
-<<<<<<< Updated upstream
 ## 參考結果
->![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result.png)
-=======
-參考結果
->![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result.png)
->>>>>>> Stashed changes
+>![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result2-1.png)
+>![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result2-2.png)
+
+
