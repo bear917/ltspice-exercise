@@ -1,6 +1,11 @@
 # .tran 指令
 當需要繪製電壓對時間或是電流對時間這類 **時域** 波形圖時，會使用 .tran 指令。
+<<<<<<< Updated upstream
 > ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture3/tran-plot.png)
+=======
+> ![]()
+最簡短的設置僅需要設定「stop time」即可，考慮到太多週期的訊號會導致難以閱讀，會設置輸入訊號的三到四個週期當作觀測時間長度。
+>>>>>>> Stashed changes
 
 範例（觀察 DSB-SC AM 訊號）
 最簡短的設置僅需要設定「stop time」即可，一般會取適當長的時間讓波形不會擠滿整個畫面而無法觀看。
@@ -9,6 +14,7 @@
 > ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture3/tran-stop.png)
 
 # AC 訊號源
+<<<<<<< Updated upstream
 如果需要使用交流電壓源（或交直流混合電壓源）
 ## sine
 ## pulse 之一：梯形波
@@ -30,3 +36,6 @@
 ## 縮放波形
 ## 呼叫游標
 ## 標示座標
+=======
+如果需要使用交流電壓源（或交直流混合電壓源）在擺放電壓源之後，右鍵選單選擇「Advanced」
+>>>>>>> Stashed changes

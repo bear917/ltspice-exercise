@@ -27,6 +27,12 @@
 ## 執行一次模擬後，呼叫 .op data label 的範例
 >![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/add-op-label.gif)
 
+# 電壓判讀
+因為 SPICE 定義的電壓大小一定是 **對地電壓**，因此每張電路圖都必須標示 GND 位置，否則模擬器在無法得知 GND 位置的情況下，無法開始計算。
+> ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/GND.png)
+
+警告視窗如下：
+![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/no-gnd.png)
 # 註解
 註解在模擬電路的過程中，不參與計算。純粹做為標示使用，一般來說，為了增加電路圖的可讀性，會進行適當的標示。
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/Text.png)
@@ -46,7 +52,7 @@
 - AeB; A x 10<sup>B</sup>
 - G; 1e9
 - *MEG*; 1e6
-- K; 1e3
+- k, K; 1e3
 - m, M; 1e-3
 - u; 1e-6
 - n; 1e-9
@@ -56,5 +62,10 @@
 ## .op 實際範例
 請同學參考 [ckt-2-1](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/ckt-2-1.zip)、[ckt-2-2](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/ckt-2-2.zip) 檔案。並請嘗試從頭到尾重現一模一樣的電路並模擬。
 
+<<<<<<< Updated upstream
 ## 參考結果
 >![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result.png)
+=======
+參考結果
+>![iamge](https://github.com/bear917/ltspice-exercise/blob/main/lecture2/result.png)
+>>>>>>> Stashed changes
