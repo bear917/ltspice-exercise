@@ -34,7 +34,7 @@
 很多時候，會需要一組訊號，它只會在某個時段出現，這個時候會需要使用 Ncycle 參數來設定出現次數。
 ### 範例（開關訊號）
 開關訊號通常都會有一個 off 狀態，然後隨機在某時產生 on 狀態，這個時候可以用 Ncycle 指定訊號只產生一次。
-下面這個開關訊號，off 狀態輸出 5V，on 狀態輸出 0V，在 3msec 的時刻，開關切換至 on，可以用下面的設定產生模擬開關的波形。
+下面這個開關訊號，off 狀態輸出 5V，on 狀態輸出 0V，在 3msec 的時刻，開關切換至 on，並且只打開一次。可以用下面的設定產生模擬開關的波形。
 > ![image](https://github.com/bear917/ltspice-exercise/blob/main/lecture3/waveform-switch-on.png)
 
 ## AC 訊號源內阻
